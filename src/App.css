@@ -1,42 +1,234 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* @keyframes bounce {
+  0%, 100%, 20%, 50%, 80% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.bounce {
+  animation: bounce 3s infinite;
+} */
+
+
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  20%, 60% {
+    transform: translateX(-10px);
+  }
+  40%, 80% {
+    transform: translateX(10px);
+  }
 }
 
-@keyframes logo-spin {
-  from {
+.shake {
+  animation: shake 0.5s infinite;
+}
+
+/* @keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+.pulse {
+  animation: pulse 1.5s infinite;
+} */
+
+
+/* @keyframes wiggle {
+  0%, 100% {
     transform: rotate(0deg);
   }
-  to {
+  25% {
+    transform: rotate(5deg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
+}
+
+.wiggle {
+  animation: wiggle 1s infinite;
+} */
+
+/* @keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
     transform: rotate(360deg);
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+.spin {
+  animation: spin 2s linear infinite;
+} */
+
+
+/* @keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 
-.card {
-  padding: 2em;
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
 }
 
-.read-the-docs {
-  color: #888;
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
+
+.fade-out {
+  animation: fadeOut 1s ease-in-out;
+}
+
+ */
+
+
+
+/* Sign out button */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: grey;
+  color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: none;
+  padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.group:hover .group-hover\\:block {
+  display: block;
+}
+
+/* Scroll bar */
+body {
+  overflow-y: scroll; /* to always show vertical scrollbar */
+  scrollbar-width: thin; /* Width of scrollbar */
+  scrollbar-color: #999999 #f3f4f6; /* Color of scrollbar (thumb and track) */
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #999999;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555555;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f3f4f6;
+  border-radius: 8px;
+}
+
+/* styles for ScrollToTop button */
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.scroll-to-top:hover {
+  background-color: #fff;
+  color: #007bff;
+}
+
+/* Style for AI menu */
+/* @keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient {
+  background: linear-gradient(270deg, #1e3a8a, #d1d5db, #1e3a8a);
+  background-size: 200% 200%;
+  animation: gradient-animation 4s ease infinite;
+}
+
+.hover\:text-blue-600:hover {
+  color: #1e3a8a;
+} */
+
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient {
+  background: linear-gradient(270deg, #1e3a8a, #d1d5db, #1e3a8a);
+  background-size: 200% 200%;
+  animation: gradient-animation 4s ease infinite;
+}
+
+.hover\:text-blue-600:hover {
+  color: #1e3a8a;
+}
+
+.glow {
+  box-shadow: 0 0 5px rgba(30, 58, 138, 0.5), 0 0 10px rgba(30, 58, 138, 0.5);
+}
+
+.hover\:glow:hover {
+  box-shadow: 0 0 15px rgba(30, 58, 138, 1), 0 0 20px rgba(30, 58, 138, 1);
+}
+
