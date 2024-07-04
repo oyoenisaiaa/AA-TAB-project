@@ -28,6 +28,7 @@ const App = () => {
           <Route path="/login" element={<LogIn setFirstName={setFirstName} />} />
           <Route path="/password-reset" element={<PasswordResetForm />} />
           <Route path="/signup" element={<SignUp setFirstName={setFirstName} />} />
+          <Route path="/reset-password/:token" element={<PasswordResetForm />} />
           <Route path="/relax" element={<Relax />} />
           <Route path="/mindfulness" element={<Mindfulness />} />
           <Route path="/stretch" element={<Stretch />} />

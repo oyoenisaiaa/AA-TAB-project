@@ -63,25 +63,26 @@
 
 
 import React, { useState } from "react";
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 
 const PasswordResetForm = () => {
   const [newPassword, setNewPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const navigate = useNavigate();
+  const { token } = useParams();
 
   const handlePasswordReset = async (e) => {
     e.preventDefault();
     
     if (newPassword === confirmPassword) {
       try {
-        const response = await fetch('https://take-a-break-anny.onrender.com/auth/reset', {
+        const response = await fetch('https://take-a-break-anny.onrender.com/auth/reset-password/:token', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
           },
           body: JSON.stringify({ newPassword }),
-        });
+        });    
 
         if (response.ok) {
           console.log("Password has been reset successfully.");
@@ -141,5 +142,3 @@ const PasswordResetForm = () => {
 };
 
 export default PasswordResetForm;
-
-

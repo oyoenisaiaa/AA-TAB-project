@@ -34,7 +34,7 @@ export default function AiPage() {
 //   return (
 //     <div className="ai-recommendation-container">
 //       <iframe 
-//         src="https://movie-recommendation-system-tab.streamlit.app" 
+//         src="https://take-a-break-movie-app.streamlit.app/" 
 //         title="AI Movie Recommendation"
 //         width="100%"
 //         height="600px"
