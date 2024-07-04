@@ -1,23 +1,50 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Accordion from './Accordion';
 
 const FAQPage = () => {
+
+  useEffect(() => {
+    // Scroll to the top of the page when the component mounts
+    window.scrollTo(0, 0);
+  }, []);
+
   const faqs = [
     {
-      question: "Is lunch provided free of cost?",
-      answer: "Yes, it is, if you have a membership with us. Otherwise it is charged as per the menu. Some limits do apply as to how much items can be included in your lunch. This limit is enough for any one person and merely exists to discourage abusal of the system.",
+      question: "What is Take a Break?",
+      answer: "Take a Break is a website that offers a platform for users to take a temporary break from their online activities and focus on their mental well-being.",
     },
     {
-      question: "Do you have 2 Bedroom suites?",
-      answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      question: "Why should I take a break?",
+      answer: "You should take a break because your mental well-being matters! Taking regular breaks can help reduce stress, improve focus, and increase productivity. The Take a Break app offers a variety of relaxation tools and resources to help you unwind and recharge.",
     },
     {
-      question: "Are Wi-Fi costs included in the price?",
-      answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      question: "How do I take a break?",
+      answer: (
+        <div>
+          Take a break by opening the Take a Break website and exploring its features, such as:
+          <ul className='list-disc pl-5 text-left'>
+            <li>Guided meditations and relaxation exercises</li>
+            <li>Calming music and nature sounds</li>
+            <li>Mood-tracking and journaling tools</li>
+            <li>Personalized relaxation plans</li>
+          </ul>
+        </div>
+      )
     },
     {
-      question: "Where can I reach you for support?",
-      answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      question: "How long is the break?",
+      answer: (
+        <div>
+          The length of your break is up to you! Take a Break offers flexible break options, ranging from:
+          <ul className='list-disc pl-5 text-left'>
+            <li>Quick 1-2 minute stress-reducing exercises</li>
+            <li>5-10 minute guided meditations</li>
+            <li>15-30 minute relaxation sessions</li>
+            <li>Longer breaks, like a 60-minute power nap or a relaxing walk</li><br></br>
+          </ul>
+          Take a break for as long as you need to feel refreshed and focused!
+        </div>
+      )
     },
   ];
 

@@ -16,7 +16,7 @@ const HelpSection = () => {
           <div className="w-[261px] h-[215.61px] bg-relax-help bg-contain bg-no-repeat mx-auto mt-4"></div>
           <p className="font-inter-regular text-16 text-black leading-6 mt-4">
             Unwind and calm<br />
-            your mind, Let go of<br />
+            your mind. Let go of<br />
             stress and tension.
           </p>
         </div>
@@ -29,7 +29,7 @@ const HelpSection = () => {
           <div className="w-[179px] h-[215px] bg-mind-help bg-contain bg-no-repeat mx-auto mt-4"></div>
           <p className="font-inter-regular text-16 text-black leading-6 mt-4">
             Be present in the<br />
-            moment, Mindful<br />
+            moment. Mindful<br />
             living for a happier life.
           </p>
         </div>

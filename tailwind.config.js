@@ -3,13 +3,16 @@ export default {
   content: [
     "./index.html", // this is the global index.html with fonts for Tailwind CSS to scan for classes used in codes on different pages / components
     "./src/**/*.{js,ts,jsx,tsx}", // this covers all files in src directory
+  
   ],
+
+  
   theme: {
     extend: {
       backgroundImage: {
-        'logo-b': "url(./assets/tab-logo.png)",
-        'logo-figma': "url(./assets/tab-logo-figma.png)", 
+        'logo-b': "url(./assets/tab-logo-blue.png)",
         'logo-w': "url(./assets/tab-logo-white.png)",
+        'logo-figma': "url(./assets/tab-logo-figma.png)", 
         'hero-image': "url(./assets/hero-image.png)",
         'about-us-long': "url(./assets/about-us-long.png)",
         'about-us-short1': "url(./assets/about-us-short1.png)",
@@ -67,9 +70,6 @@ export default {
           '2xl': '1536px',
           // => @media (min-width: 1536px) { ... }
         },
-
-
-
 
        
 

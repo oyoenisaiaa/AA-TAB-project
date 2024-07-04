@@ -25,3 +25,24 @@ export default function AiPage() {
     </main>
   );
 }
+
+
+
+// import React from 'react';
+
+// const AIRecommendation = () => {
+//   return (
+//     <div className="ai-recommendation-container">
+//       <iframe 
+//         src="https://movie-recommendation-system-tab.streamlit.app" 
+//         title="AI Movie Recommendation"
+//         width="100%"
+//         height="600px"
+//         style={{ border: 'none' }}
+//         allowFullScreen
+//       ></iframe>
+//     </div>
+//   );
+// };
+
+// export default AIRecommendation;

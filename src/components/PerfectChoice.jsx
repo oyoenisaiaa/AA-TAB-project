@@ -16,14 +16,14 @@ const PerfectChoiceSection = () => {
         <div className="text-center flex flex-col items-center">
             <div className="w-52 h-52 bg-pc-col1-top bg-cover bg-no-repeat"></div>
             <h3 className="text-be-vietnam-pro-medium text-2xl mt-4">Tailored Break Experiences</h3>
-            <p className="text-inter-regular text-base mt-2">
+            <p className="text-inter-regular text-base mt-2 max-h-[200px]">
                 Our platform offers a diverse range of break options designed to suit every need. Whether you’re looking for a quick mental refresh, a guided meditation, or a virtual getaway, we have something for everyone. Each experience is curated by experts to ensure you receive the maximum benefit from your downtime.
                 </p></div>
                     
     <div className="text-center flex flex-col items-center">
         <div className="w-52 h-52 bg-pc-col1-down bg-cover bg-no-repeat "></div>
         <h3 className="text-be-vietnam-pro-medium text-2xl mt-4 flex-grow">EaseAI</h3>
-        <p className="text-inter-regular text-base mt-2">
+        <p className="text-inter-regular text-base mt-2 max-h-[200px]">
             With our EaseAI, you get curated suggestions that perfectly match your interest, ensuring that every moment of your break is well spent. Take a Break, because everyone deserves a moment for themselves.
             </p></div>
             </div>
@@ -32,11 +32,11 @@ const PerfectChoiceSection = () => {
     <div className="w-80 h-[300px] bg-pc-col2-center bg-cover bg-no-repeat"></div>
     </div>
 
-    <div className="w-full md:w-1/3 flex flex-col items-center space-y-8">
+    <div className="w-full md:w-1/3 flex flex-col items-center space-y-8 ">
     <div className="text-center flex flex-col items-center">
         <div className="w-52 h-52 bg-pc-col3-top bg-cover bg-no-repeat "></div>
         <h3 className="text-be-vietnam-pro-medium text-2xl mt-4">User-Friendly Interface</h3>
-        <p className="text-inter-regular text-base mt-2">
+        <p className="text-inter-regular text-base mt-2 max-h-[200px]">
             Navigating our website is a breeze. With an intuitive and easy-to-use interface, you can effortlessly find and access the perfect break activity. Simply log in, and within seconds, you’ll be on your way to relaxation and rejuvenation.
               </p>
             </div>
@@ -44,7 +44,7 @@ const PerfectChoiceSection = () => {
     <div className="text-center flex flex-col items-center">
         <div className="w-52 h-52 bg-pc-col3-down bg-cover bg-no-repeat"></div>
         <h3 className="text-be-vietnam-pro-medium text-2xl mt-4">Scientifically Proven Benefits</h3>
-        <p className="text-inter-regular text-base mt-2">
+        <p className="text-inter-regular text-base mt-2 max-h-[200px]">
             Our break programs are backed by scientific research that highlights the positive effects of taking regular breaks. Improved productivity, enhanced creativity, reduced stress levels, and better overall well-being are just a few of the many benefits you’ll experience.
               </p>
             </div>
