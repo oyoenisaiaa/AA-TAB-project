@@ -10,7 +10,7 @@ const HeroSection = () => {
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4 md:px-0">
         <div className="mt-4 md:mt-6 flex flex-col items-start">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">Take a Break</h1>
-          <h2 className="text-2xl md:text-4xl capitalize text-left">Pause. Refresh. Thrive: Your perfect break awaits.</h2>
+          <h2 className="text-2xl md:text-4xl capitalize text-left">Because Everyone Deserves A Moment For Themselves.</h2>
         </div>
         <button
           onClick={() => navigate('/signup')}

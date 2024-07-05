@@ -54,7 +54,7 @@ function Mindfulness() {
         </div>
 
         <div className="flex flex-col md:flex-row items-center justify-center mt-10">
-          <div className="bg-mindPageBlue text-white p-6 sm:p-10 w-full md:w-[482px] h-auto md:h-[476px] rounded-tl-[20px] rounded-bl-[20px] flex items-center justify-center">
+          <div className="bg-mindPageBlue text-white md:p-3 sm:p-10 w-full md:w-[482px] h-auto md:h-[476px] rounded-tl-[20px] rounded-bl-[20px] flex items-center justify-center">
             <p className="text-base sm:text-[24px] md:text-[30px] md:leading-8 text-center font-be-vietnam-pro-medium-500 font-semibold">
               Mindfulness, the practice of focusing on the present moment without judgment, is the foundation of Take A Break's approach.<br/> By becoming more aware of your thoughts and feelings, you can make conscious choices about your habits.
             </p>

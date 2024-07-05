@@ -53,7 +53,7 @@ const Alert = ({ message }) => {
     // Setting timer to show alert after set minutes
     const timer = setTimeout(() => {
       setShowAlert(true);
-    }, 60000); // 120000 milliseconds = 2 minutes
+    }, 60000); // 60000 milliseconds = 1 minute
 
     // Cleanup function to clear the timeout if the component unmounts in DOM i.e user navigates away
     return () => clearTimeout(timer); 
