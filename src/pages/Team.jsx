@@ -27,7 +27,7 @@ const teamMembers = [
   {
     name: "Tina OmIniabohs",
     imgSrc: tinaImage, 
-    description: "Scrum Mastery(Chief Product Manager)",
+    description: "Scrum Mastery (Chief Product Manager)",
     linkedin: "http://linkedin.com/in/tina-ominiabohs-803a13264",
   },
   {
