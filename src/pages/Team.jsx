@@ -1,50 +1,31 @@
 import React, { useEffect } from 'react';
 import { TiSocialLinkedin } from "react-icons/ti";
 
+// Import images
+import senaImage from '../assets/team/Sena Dzokoto _ Ghana.jpg'; 
+import unwanaImage from '../assets/team/Unwanaonong Williams-Nigeria.jpg';
+import unomaImage from '../assets/team/Unoma Okoro_Nigeria.jpg';
+
+
 const teamMembers = [
   {
     name: "Sena Dzokoto",
-    imgSrc: "public/team/Sena Dzokoto _ Ghana.jpg", 
+    imgSrc: senaImage, 
     description: "Scrum mastery",
     linkedin: "https://www.linkedin.com/in/sena-dzokoto",
   },
   {
     name: "Unwanaobong Williams",
-    imgSrc: "public/team/Unwanaonong Williams-Nigeria.jpg", 
+    imgSrc: unwanaImage, 
     description: "Product Management",
     linkedin: "https://www.linkedin.com/in/unwanaobong",
   },
   {
-    name: "Unwanaobong Williams",
-    imgSrc: "public/team/Unoma Okoro_Nigeria.jpg", 
+    name: "Unoma Okoro",
+    imgSrc: unomaImage, 
     description: "Product Management",
-    linkedin: "https://www.linkedin.com/in/unwanaobong",
+    linkedin: "https://www.linkedin.com/in/unomaokoro",
   },
-
-   
-
-
-
-
-   // {
-  //   name: "Ariyo Oluwadamilola",
-  //   imgSrc: "Img/Ariyo Oluwadamilola. Nigeria_.png",
-  //   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  //   linkedin: "https://www.linkedin.com/in/dummy-profile",
-  // },
-  // {
-  //   name: "Blessing Ozoemena",
-  //   imgSrc: "Img/Blessing Ozoemena-Nigeria.JPG",
-  //   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  //   linkedin: "https://www.linkedin.com/in/dummy-profile",
-  // },
-  // {
-  //   name: "Yetunde Akinola",
-  //   imgSrc: "Img/Yetunde Akinola_ Nigeria.jpeg",
-  //   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  //   linkedin: "https://www.linkedin.com/in/dummy-profile",
-  // }
-  // Add other team members as needed
 ];
 
 const Team = () => {
@@ -67,8 +48,8 @@ const Team = () => {
             <a 
               href={member.linkedin} 
               className="inline-block mt-2 text-gray-500 hover:text-blue-600 transition"
-              // target="_blank" 
-              // rel="noopener noreferrer"
+              target="_blank" 
+              rel="noopener noreferrer"
             >
               <TiSocialLinkedin className="w-6 h-6 fill-current" />
             </a>

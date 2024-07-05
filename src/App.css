@@ -258,7 +258,7 @@ body {
 } */
 
 
-/* Styling for image arousel for React Alice component */
+/* Styling for rotating image carousel for React Alice component */
 /* .carousel-image {
   width: 100%;
   height: auto;
@@ -301,6 +301,8 @@ body {
     padding: 10px;
   }
 }
+
+
 
 /* Styling for Feedback Carousel */
 .feedback-carousel-container {
@@ -352,7 +354,7 @@ body {
 
 .quote-icon {
   font-size: 24px;
-  color: black;
+  color: black; /* Setting the quote icon color to black */
   margin-bottom: 10px;
 }
 
@@ -410,5 +412,64 @@ body {
     font-size: 1.5rem;
     left: -20px;
     right: -20px;
+  }
+}
+
+.feedback-carousel-container {
+  position: relative;
+}
+
+.carousel-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.feedback-item {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.feedback-text {
+  font-size: 1rem;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.feedback-name {
+  font-weight: bold;
+  color: #333;
+}
+
+.control-btn {
+  background: none;
+  border: none;
+  color: #333;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.dot {
+  background: #ccc;
+  border-radius: 50%;
+  display: inline-block;
+  height: 10px;
+  margin: 5px;
+  width: 10px;
+}
+
+.dot.active {
+  background: #333;
+}
+
+@media (min-width: 1024px) {
+  .feedback-item {
+    margin: 20px;
   }
 }

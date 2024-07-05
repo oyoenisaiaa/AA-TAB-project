@@ -87,10 +87,10 @@ const Footer = () => {
             <h5 className="uppercase font-bold text-white">Press</h5>
             <ul className="mt-6 text-sm font-medium">
               <li className="mt-3">
-                <a href="#" className="border-b-2 border-transparent text-white hover:border-gray-700 pb-1 transition duration-300">Logos</a>
+                <a href="/" className="border-b-2 border-transparent text-white hover:border-gray-700 pb-1 transition duration-300">Logos</a>
               </li>
               <li className="mt-3">
-                <a href="#" className="border-b-2 border-transparent text-white hover:border-gray-700 pb-1 transition duration-300">Events</a>
+                <a href="/" className="border-b-2 border-transparent text-white hover:border-gray-700 pb-1 transition duration-300">Events</a>
               </li>
               <li className="mt-3">
                 <Link to="/team" className="border-b-2 border-transparent text-white hover:border-gray-700 pb-1 transition duration-300">Team</Link>
@@ -104,16 +104,16 @@ const Footer = () => {
             <h5 className="uppercase font-bold text-white">Legal</h5>
             <ul className="mt-6 text-sm font-medium">
               <li className="mt-3">
-                <a href="#" className="border-b-2 border-transparent text-white hover:border-gray-700 pb-1 transition duration-300">GDPR</a>
+                <a href="/" className="border-b-2 border-transparent text-white hover:border-gray-700 pb-1 transition duration-300">GDPR</a>
               </li>
               <li className="mt-3">
-                <a href="#" className="border-b-2 border-transparent text-white hover:border-gray-700 pb-1 transition duration-300">Privacy Policy</a>
+                <a href="/" className="border-b-2 border-transparent text-white hover:border-gray-700 pb-1 transition duration-300">Privacy Policy</a>
               </li>
               <li className="mt-3">
-                <a href="#" className="border-b-2 border-transparent text-white hover:border-gray-700 pb-1 transition duration-300">Terms of Service</a>
+                <a href="/" className="border-b-2 border-transparent text-white hover:border-gray-700 pb-1 transition duration-300">Terms of Service</a>
               </li>
               <li className="mt-3">
-                <a href="#" className="border-b-2 border-transparent text-white hover:border-gray-700 pb-1 transition duration-300">Disclaimer</a>
+                <a href="/" className="border-b-2 border-transparent text-white hover:border-gray-700 pb-1 transition duration-300">Disclaimer</a>
               </li>
             </ul>
           </div>
