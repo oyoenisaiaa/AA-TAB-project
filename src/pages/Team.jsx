@@ -5,7 +5,7 @@ import { TiSocialLinkedin } from "react-icons/ti";
 // import senaImage from '../assets/team/Sena Dzokoto _ Ghana.jpg'; 
 // <img src="../assets/team/Sena Dzokoto _ Ghana.jpg" /> 
 import unwanaImage from '../assets/team/Unwanaonong Williams-Nigeria.jpg';
-// import unomaImage from '../assets/team/Unoma Okoro_Nigeria.jpg';
+import unomaImage from '../assets/team/Unoma Okoro_Nigeria.jpg';
 
 
 
