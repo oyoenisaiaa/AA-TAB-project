@@ -2,15 +2,18 @@ import React, { useEffect } from 'react';
 import { TiSocialLinkedin } from "react-icons/ti";
 
 // Import images
-import senaImage from '../assets/team/Sena Dzokoto _ Ghana.jpg'; 
+// import senaImage from '../assets/team/Sena Dzokoto _ Ghana.jpg'; 
+// <img src="../assets/team/Sena Dzokoto _ Ghana.jpg" /> 
 import unwanaImage from '../assets/team/Unwanaonong Williams-Nigeria.jpg';
-import unomaImage from '../assets/team/Unoma Okoro_Nigeria.jpg';
+// import unomaImage from '../assets/team/Unoma Okoro_Nigeria.jpg';
+
+
 
 
 const teamMembers = [
   {
     name: "Sena Dzokoto",
-    imgSrc: senaImage, 
+    imgSrc: <img src="../assets/team/Sena Dzokoto _ Ghana.jpg" /> , 
     description: "Scrum mastery",
     linkedin: "https://www.linkedin.com/in/sena-dzokoto",
   },

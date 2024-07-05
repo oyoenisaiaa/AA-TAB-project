@@ -8,7 +8,7 @@ const Footer = () => {
   const [showPopover, setShowPopover] = useState(false);
 
   const handleCopyToClipboard = () => {
-    navigator.clipboard.writeText("www.takeabreak.com");
+    navigator.clipboard.writeText("https://tab-africa-agility.netlify.app/");
     alert("URL copied to clipboard. Thank you for sharing!");
   };
 

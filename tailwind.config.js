@@ -26,6 +26,7 @@ export default {
         'pc-col2-center' : "url(./assets/pc-col2-center.png)",
         'pc-col3-top' : "url(./assets/pc-col3-top.png)",
         'pc-col3-down' : "url(./assets/pc-col3-down.png)",
+        'unomaImage': "url(../assets/team/Unoma Okoro_Nigeria.jpg)",
         
         // 'facebook-icon': "url(./assets/facebook-icon.svg)",
         // 'twitter-icon': "url(./assets/twitter-icon.svg)",
